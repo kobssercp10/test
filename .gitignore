@@ -1,0 +1,8 @@
+node_modules/
+.next/
+package-lock.json
+next-env.d.ts
+
+# MacOS/Windows
+.DS_Store
+Thumbs.db
