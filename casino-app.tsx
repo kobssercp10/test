@@ -222,11 +222,11 @@ export default function Component() {
           </div>
         </div>
 
-        <div ref={featuredRef} className="flex gap-3 overflow-x-auto scrollbar-hide pb-2">
+        <div ref={featuredRef} className="flex gap-1 overflow-x-auto scrollbar-hide pb-2">
           {featuredGames.map((game) => (
             <Card
               key={game.id}
-              className="flex-shrink-0 w-28 sm:w-32 md:w-36 lg:w-40 rounded-xl overflow-hidden bg-purple-800 transition-shadow hover:ring-2 hover:ring-pink-500 hover:shadow-[0_0_10px_#ff3cac]"
+              className="mt-1 ml-1 mr-1 mb-1 flex-shrink-0 w-28 sm:w-32 md:w-36 lg:w-40 rounded-xl overflow-hidden bg-purple-800 transition-shadow hover:ring-2 hover:ring-pink-500 hover:shadow-[0_0_10px_#ff3cac]"
             >
               <div className="relative aspect-[4/5]">
                 <Image src={game.image} alt={game.title} fill className="object-cover" />
@@ -260,11 +260,11 @@ export default function Component() {
           </div>
         </div>
 
-        <div ref={topRef} className="flex gap-3 overflow-x-auto scrollbar-hide pb-2">
+        <div ref={topRef} className="flex gap-1 overflow-x-auto scrollbar-hide pb-2">
           {topGames.map((game) => (
             <Card
               key={game.id}
-              className="flex-shrink-0 w-28 sm:w-32 md:w-36 lg:w-40 rounded-xl overflow-hidden bg-purple-800 transition-shadow hover:ring-2 hover:ring-pink-500 hover:shadow-[0_0_10px_#ff3cac]"
+              className="mt-1 ml-1 mr-1 mb-1 flex-shrink-0 w-28 sm:w-32 md:w-36 lg:w-40 rounded-xl overflow-hidden bg-purple-800 transition-shadow hover:ring-2 hover:ring-pink-500 hover:shadow-[0_0_10px_#ff3cac]"
             >
               <div className="relative aspect-[4/5]">
                 <Image src={game.image} alt={game.title} fill className="object-cover" />
@@ -298,11 +298,11 @@ export default function Component() {
           </div>
         </div>
 
-        <div ref={newRef} className="flex gap-3 overflow-x-auto scrollbar-hide pb-2">
+        <div ref={newRef} className="flex gap-1 overflow-x-auto scrollbar-hide pb-2">
           {newGames.map((game) => (
             <Card
               key={game.id}
-              className="flex-shrink-0 w-28 sm:w-32 md:w-36 lg:w-40 rounded-xl overflow-hidden bg-purple-800 transition-shadow hover:ring-2 hover:ring-pink-500 hover:shadow-[0_0_10px_#ff3cac]"
+              className="mt-1 ml-1 mr-1 mb-1 flex-shrink-0 w-28 sm:w-32 md:w-36 lg:w-40 rounded-xl overflow-hidden bg-purple-800 transition-shadow hover:ring-2 hover:ring-pink-500 hover:shadow-[0_0_10px_#ff3cac]"
             >
               <div className="relative aspect-[4/5]">
                 <Image src={game.image} alt={game.title} fill className="object-cover" />
@@ -336,11 +336,11 @@ export default function Component() {
           </div>
         </div>
 
-        <div ref={jackpotRef} className="flex gap-3 overflow-x-auto scrollbar-hide pb-2">
+        <div ref={jackpotRef} className="flex gap-1 overflow-x-auto scrollbar-hide pb-2">
           {jackpotGames.map((game) => (
             <Card
               key={game.id}
-              className="flex-shrink-0 w-28 sm:w-32 md:w-36 lg:w-40 rounded-xl overflow-hidden bg-purple-800 transition-shadow hover:ring-2 hover:ring-pink-500 hover:shadow-[0_0_10px_#ff3cac]"
+              className="mt-1 ml-1 mr-1 mb-1 flex-shrink-0 w-28 sm:w-32 md:w-36 lg:w-40 rounded-xl overflow-hidden bg-purple-800 transition-shadow hover:ring-2 hover:ring-pink-500 hover:shadow-[0_0_10px_#ff3cac]"
             >
               <div className="relative aspect-[4/5]">
                 <Image src={game.image} alt={game.title} fill className="object-cover" />
@@ -374,11 +374,11 @@ export default function Component() {
           </div>
         </div>
 
-        <div ref={popularRef} className="flex gap-3 overflow-x-auto scrollbar-hide pb-2">
+        <div ref={popularRef} className="flex gap-1 overflow-x-auto scrollbar-hide pb-2">
           {popularGames.map((game) => (
             <Card
               key={game.id}
-              className="flex-shrink-0 w-28 sm:w-32 md:w-36 lg:w-40 rounded-xl overflow-hidden bg-purple-800 transition-shadow hover:ring-2 hover:ring-pink-500 hover:shadow-[0_0_10px_#ff3cac]"
+              className="mt-1 ml-1 mr-1 mb-1 flex-shrink-0 w-28 sm:w-32 md:w-36 lg:w-40 rounded-xl overflow-hidden bg-purple-800 transition-shadow hover:ring-2 hover:ring-pink-500 hover:shadow-[0_0_10px_#ff3cac]"
             >
               <div className="relative aspect-[4/5]">
                 <Image src={game.image} alt={game.title} fill className="object-cover" />
