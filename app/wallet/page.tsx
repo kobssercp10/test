@@ -164,7 +164,7 @@ export default function WalletPage() {
           </Button>
 
           {showAlert && (
-            <div className="relative mt-2 rounded-md bg-red-600 p-4 text-white">
+            <div className="fixed top-12 left-4 right-4 z-50 rounded-md bg-red-600 p-4 text-white">
               <button
                 className="absolute right-2 top-2"
                 onClick={() => setShowAlert(false)}
