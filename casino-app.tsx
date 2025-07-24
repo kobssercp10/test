@@ -360,6 +360,17 @@ export default function Component() {
         </div>
       </div>
 
+      {/* Custom Gradient HR */}
+      <div className="mt-10 px-4">
+        <div className="h-px bg-gradient-to-r from-transparent via-pink-500 to-transparent opacity-50"></div>
+      </div>
+
+      {/* Contact Information */}
+      <div className="mt-10 mb-20 px-4 text-center">
+        <a href="https://t.me/TelBet_Demo_Bot" className="text-pink-400 text-sm hover:underline">
+          @TelBet_Demo_Bot
+        </a>
+      </div>
 
     </div>
   );
