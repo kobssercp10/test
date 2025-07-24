@@ -117,13 +117,13 @@ export default function Component() {
   return (
     <div>
       {/* Welcome Offer Banner */}
-      <div className="mx-0 mt-px relative overflow-hidden">
+      <div className="mx-0 mt-px relative overflow-hidden aspect-video">
         <Image
           src="/banner.png"
           alt="Welcome Offer"
           width={1280}
           height={720}
-          className="w-full h-auto object-cover"
+          className="w-full h-full object-cover"
         />
         <div className="absolute bottom-2 left-1/2 -translate-x-1/2">
           <Button className="bg-[#ff3cac] hover:bg-[#ff3cac]/90 text-white px-6 py-2 rounded-full font-bold">
