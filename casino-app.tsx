@@ -160,7 +160,7 @@ export default function Component() {
           {featuredGames.map((game) => (
             <Card
               key={game.id}
-              className="mt-1 ml-1 mr-1 mb-1 flex-shrink-0 w-28 sm:w-32 md:w-36 lg:w-40 rounded-xl overflow-hidden bg-purple-800 transition-shadow hover:ring-2 hover:ring-pink-500 hover:shadow-[0_0_10px_#ff3cac]"
+              className="mt-1 ml-1 mr-1 mb-1 flex-shrink-0 w-28 sm:w-32 md:w-36 lg:w-40 rounded-xl overflow-hidden bg-purple-800 transition-shadow hover:ring-2 hover:ring-pink-500 hover:shadow-[0_0_10px_#ff3cac] border-none"
             >
               <div className="relative aspect-[4/5]">
                 <Image src={game.image} alt={game.title} fill className="object-cover" />
@@ -198,7 +198,7 @@ export default function Component() {
           {topGames.map((game) => (
             <Card
               key={game.id}
-              className="mt-1 ml-1 mr-1 mb-1 flex-shrink-0 w-28 sm:w-32 md:w-36 lg:w-40 rounded-xl overflow-hidden bg-purple-800 transition-shadow hover:ring-2 hover:ring-pink-500 hover:shadow-[0_0_10px_#ff3cac]"
+              className="mt-1 ml-1 mr-1 mb-1 flex-shrink-0 w-28 sm:w-32 md:w-36 lg:w-40 rounded-xl overflow-hidden bg-purple-800 transition-shadow hover:ring-2 hover:ring-pink-500 hover:shadow-[0_0_10px_#ff3cac] border-none"
             >
               <div className="relative aspect-[4/5]">
                 <Image src={game.image} alt={game.title} fill className="object-cover" />
@@ -236,7 +236,7 @@ export default function Component() {
           {newGames.map((game) => (
             <Card
               key={game.id}
-              className="mt-1 ml-1 mr-1 mb-1 flex-shrink-0 w-28 sm:w-32 md:w-36 lg:w-40 rounded-xl overflow-hidden bg-purple-800 transition-shadow hover:ring-2 hover:ring-pink-500 hover:shadow-[0_0_10px_#ff3cac]"
+              className="mt-1 ml-1 mr-1 mb-1 flex-shrink-0 w-28 sm:w-32 md:w-36 lg:w-40 rounded-xl overflow-hidden bg-purple-800 transition-shadow hover:ring-2 hover:ring-pink-500 hover:shadow-[0_0_10px_#ff3cac] border-none"
             >
               <div className="relative aspect-[4/5]">
                 <Image src={game.image} alt={game.title} fill className="object-cover" />
@@ -274,7 +274,7 @@ export default function Component() {
           {cryptoGames.map((game) => (
             <Card
               key={game.id}
-              className="mt-1 ml-1 mr-1 mb-1 flex-shrink-0 w-28 sm:w-32 md:w-36 lg:w-40 rounded-xl overflow-hidden bg-purple-800 transition-shadow hover:ring-2 hover:ring-pink-500 hover:shadow-[0_0_10px_#ff3cac]"
+              className="mt-1 ml-1 mr-1 mb-1 flex-shrink-0 w-28 sm:w-32 md:w-36 lg:w-40 rounded-xl overflow-hidden bg-purple-800 transition-shadow hover:ring-2 hover:ring-pink-500 hover:shadow-[0_0_10px_#ff3cac] border-none"
             >
               <div className="relative aspect-[4/5]">
                 <Image src={game.image} alt={game.title} fill className="object-cover" />
@@ -312,7 +312,7 @@ export default function Component() {
           {jackpotGames.map((game) => (
             <Card
               key={game.id}
-              className="mt-1 ml-1 mr-1 mb-1 flex-shrink-0 w-28 sm:w-32 md:w-36 lg:w-40 rounded-xl overflow-hidden bg-purple-800 transition-shadow hover:ring-2 hover:ring-pink-500 hover:shadow-[0_0_10px_#ff3cac]"
+              className="mt-1 ml-1 mr-1 mb-1 flex-shrink-0 w-28 sm:w-32 md:w-36 lg:w-40 rounded-xl overflow-hidden bg-purple-800 transition-shadow hover:ring-2 hover:ring-pink-500 hover:shadow-[0_0_10px_#ff3cac] border-none"
             >
               <div className="relative aspect-[4/5]">
                 <Image src={game.image} alt={game.title} fill className="object-cover" />
@@ -350,7 +350,7 @@ export default function Component() {
           {bookOfSlotsGames.map((game) => (
             <Card
               key={game.id}
-              className="mt-1 ml-1 mr-1 mb-1 flex-shrink-0 w-28 sm:w-32 md:w-36 lg:w-40 rounded-xl overflow-hidden bg-purple-800 transition-shadow hover:ring-2 hover:ring-pink-500 hover:shadow-[0_0_10px_#ff3cac]"
+              className="mt-1 ml-1 mr-1 mb-1 flex-shrink-0 w-28 sm:w-32 md:w-36 lg:w-40 rounded-xl overflow-hidden bg-purple-800 transition-shadow hover:ring-2 hover:ring-pink-500 hover:shadow-[0_0_10px_#ff3cac] border-none"
             >
               <div className="relative aspect-[4/5]">
                 <Image src={game.image} alt={game.title} fill className="object-cover" />
