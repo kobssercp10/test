@@ -6,13 +6,14 @@ import { Card } from "@/components/ui/card";
 import {
   Home,
   Search,
-  Gift,
   Wallet,
   DollarSign,
+  User,
   ChevronLeft,
   ChevronRight,
 } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Component() {
   const [balance] = useState("0.00000");
@@ -403,40 +404,35 @@ export default function Component() {
       {/* Bottom Navigation */}
       <div className="fixed bottom-0 left-0 right-0 bg-black/40 backdrop-blur-md border-t border-purple-700/50">
         <div className="flex items-center justify-around py-2">
-          <Button
-            variant="ghost"
-            className="flex flex-col items-center gap-1 text-[#ff3cac] drop-shadow-[0_0_6px_#ff3cac] p-2"
-          >
-            <Home className="w-5 h-5" />
-            <span className="text-xs">Home</span>
+          <Button asChild variant="ghost" className="flex flex-col items-center gap-1 text-[#ff3cac] drop-shadow-[0_0_6px_#ff3cac] p-2">
+            <Link href="/">
+              <Home className="w-5 h-5" />
+              <span className="text-xs">Home</span>
+            </Link>
           </Button>
-          <Button
-            variant="ghost"
-            className="flex flex-col items-center gap-1 text-gray-400 p-2"
-          >
-            <Search className="w-5 h-5" />
-            <span className="text-xs">Search</span>
+          <Button asChild variant="ghost" className="flex flex-col items-center gap-1 text-gray-400 p-2">
+            <Link href="/search">
+              <Search className="w-5 h-5" />
+              <span className="text-xs">Search</span>
+            </Link>
           </Button>
-          <Button
-            variant="ghost"
-            className="flex flex-col items-center gap-1 text-gray-400 p-2"
-          >
-            <Gift className="w-5 h-5" />
-            <span className="text-xs">Offers</span>
+          <Button asChild variant="ghost" className="flex flex-col items-center gap-1 text-gray-400 p-2">
+            <Link href="/wallet">
+              <Wallet className="w-5 h-5" />
+              <span className="text-xs">Wallet</span>
+            </Link>
           </Button>
-          <Button
-            variant="ghost"
-            className="flex flex-col items-center gap-1 text-gray-400 p-2"
-          >
-            <Wallet className="w-5 h-5" />
-            <span className="text-xs">Wallet</span>
+          <Button asChild variant="ghost" className="flex flex-col items-center gap-1 text-gray-400 p-2">
+            <Link href="/earn">
+              <DollarSign className="w-5 h-5" />
+              <span className="text-xs">Earn</span>
+            </Link>
           </Button>
-          <Button
-            variant="ghost"
-            className="flex flex-col items-center gap-1 text-gray-400 p-2"
-          >
-            <DollarSign className="w-5 h-5" />
-            <span className="text-xs">Earn</span>
+          <Button asChild variant="ghost" className="flex flex-col items-center gap-1 text-gray-400 p-2">
+            <Link href="/profile">
+              <User className="w-5 h-5" />
+              <span className="text-xs">Profile</span>
+            </Link>
           </Button>
         </div>
       </div>
