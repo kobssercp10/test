@@ -18,7 +18,9 @@ export default function ProfilePage() {
           <p className="font-bold">
             {user ? `${user.first_name} ${user.last_name ?? ""}` : "---"}
           </p>
-          <p className="text-sm opacity-70">User since: Jan 1, 2024</p>
+          <p className="text-sm opacity-70">
+            {user?.username ? `@${user.username}` : `ID: ${user?.id}`}
+          </p>
         </div>
       </div>
 
