@@ -1,18 +1,23 @@
+"use client";
 import Image from "next/image";
+import useTelegramUser from "@/hooks/useTelegramUser";
 
 export default function ProfilePage() {
+  const user = useTelegramUser();
   return (
     <main className="p-4 flex flex-col gap-4">
       <div className="flex items-center gap-4">
         <Image
-          src="https://placehold.co/64x64"
+          src={user?.photo_url ?? "https://placehold.co/64x64"}
           alt="Profile"
           width={64}
           height={64}
           className="rounded-full"
         />
         <div>
-          <p className="font-bold">John Doe</p>
+          <p className="font-bold">
+            {user ? `${user.first_name} ${user.last_name ?? ""}` : "John Doe"}
+          </p>
           <p className="text-sm opacity-70">User since: Jan 1, 2024</p>
         </div>
       </div>

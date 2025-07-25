@@ -1,10 +1,12 @@
 "use client";
 import { useState } from "react";
+import useTelegramUser from "@/hooks/useTelegramUser";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 
 export default function Header() {
   const [balance] = useState("0.000");
+  const user = useTelegramUser();
   return (
     <div className="sticky top-0 z-50 flex items-center justify-between p-4 bg-black/20 backdrop-blur-md">
       <div className="flex items-center gap-2">
@@ -17,8 +19,8 @@ export default function Header() {
       </div>
       <Button variant="ghost" size="icon" className="w-10 h-10 rounded-full overflow-hidden p-0 ml-3">
         <Image
-          src="https://placehold.co/40x40"
-          alt="Profile"
+          src={user?.photo_url ?? "https://placehold.co/40x40"}
+          alt={user ? `${user.first_name} ${user.last_name ?? ""}` : "Profile"}
           width={40}
           height={40}
           className="object-cover"
