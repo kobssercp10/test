@@ -8,7 +8,7 @@ export default function ProfilePage() {
     <main className="p-4 flex flex-col gap-4">
       <div className="flex items-center gap-4">
         <Image
-          src={user?.photo_url ?? "https://placehold.co/64x64"}
+          src={user?.photo_url ?? "https://placehold.co/64x64/EEEEEE/EEEEEE"}
           alt="Profile"
           width={64}
           height={64}
@@ -16,7 +16,7 @@ export default function ProfilePage() {
         />
         <div>
           <p className="font-bold">
-            {user ? `${user.first_name} ${user.last_name ?? ""}` : "John Doe"}
+            {user ? `${user.first_name} ${user.last_name ?? ""}` : "---"}
           </p>
           <p className="text-sm opacity-70">User since: Jan 1, 2024</p>
         </div>

@@ -19,7 +19,7 @@ export default function Header() {
       </div>
       <Button variant="ghost" size="icon" className="w-10 h-10 rounded-full overflow-hidden p-0 ml-3">
         <Image
-          src={user?.photo_url ?? "https://placehold.co/40x40"}
+          src={user?.photo_url ?? "https://placehold.co/40x40/EEEEEE/EEEEEE"}
           alt={user ? `${user.first_name} ${user.last_name ?? ""}` : "Profile"}
           width={40}
           height={40}
