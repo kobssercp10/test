@@ -21,6 +21,9 @@ Create a `.env` file in this directory with the following variables:
 ```
 TELEGRAM_BOT_TOKEN=<your bot token>
 WEBAPP_URL=<url to open from the button>
+BOT_USERNAME=<bot username without @>
+TON_ADDRESS=<TON deposit address>
+TON_TAG=<Ton Destination Tag>
 ```
 
 ## Running the Bot
