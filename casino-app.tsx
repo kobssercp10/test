@@ -126,8 +126,8 @@ export default function Component() {
           className="w-full h-full object-cover"
         />
         <div className="absolute bottom-2 left-1/2 -translate-x-1/2">
-          <Button className="bg-[#ff3cac] hover:bg-[#ff3cac]/90 text-white px-6 py-2 rounded-full font-bold">
-            Deposit
+          <Button className="bg-[#ff3cac] hover:bg-[#ff3cac]/90 text-white px-6 py-2 rounded-full font-bold" asChild>
+            <a href="/wallet">Deposit</a>
           </Button>
         </div>
       </div>
