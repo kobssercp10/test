@@ -4,9 +4,11 @@ import Image from "next/image";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Copy, Users, DollarSign, Percent } from "lucide-react";
+import useBotEnv from "@/hooks/useBotEnv";
 
 export default function EarnPage() {
-  const affiliate = "https://t.me/example_bot";
+  const { BOT_USERNAME } = useBotEnv();
+  const affiliate = `https://t.me/${BOT_USERNAME}`;
 
   const copy = async (text: string) => {
     try {
