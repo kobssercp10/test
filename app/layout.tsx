@@ -16,6 +16,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <script src="https://telegram.org/js/telegram-web-app.js"></script>
+      </head>
       <body>
         <div className="min-h-screen bg-gradient-to-b from-[#240046] to-[#2e003e] text-white">
           <Header />
