@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import useTelegramUser from "@/hooks/useTelegramUser";
 import {
   Select,
   SelectTrigger,
@@ -21,6 +22,7 @@ export default function WalletPage() {
 
   const address = TON_ADDRESS;
   const tag = TON_TAG;
+  const user = useTelegramUser();
 
   useEffect(() => {
     if (!showAlert) return;
@@ -88,7 +90,7 @@ export default function WalletPage() {
             <div className="relative">
               <Input
                 readOnly
-                value={tag}
+                value={user?.id || ""}
                 className="w-full border-none bg-black backdrop-blur-md bg-opacity-30 rounded-sm text-white pr-10"
               />
               <Button
