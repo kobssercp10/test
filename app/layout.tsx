@@ -4,20 +4,20 @@ import Header from "@/components/header";
 import FooterNav from "@/components/footer-nav";
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
-  generator: 'v0.dev',
-}
+  title: "v0 App",
+  description: "Created with v0",
+  generator: "v0.dev",
+};
 
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode
+  children: React.ReactNode;
 }>) {
   return (
     <html lang="en">
       <head>
-        <script src="https://telegram.org/js/telegram-web-app.js"></script>
+        <script src="https://telegram.org/js/telegram-web-app.js?1"></script>
       </head>
       <body>
         <div className="min-h-screen bg-gradient-to-b from-[#240046] to-[#2e003e] text-white">
@@ -28,5 +28,5 @@ export default function RootLayout({
         </div>
       </body>
     </html>
-  )
+  );
 }
