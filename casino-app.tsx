@@ -32,7 +32,7 @@ export default function Component() {
           alt="Welcome Offer"
           width={1280}
           height={720}
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover opacity-80"
           priority
         />
         <div className="absolute bottom-2 left-1/2 -translate-x-1/2">
