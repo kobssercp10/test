@@ -1,207 +1,89 @@
-[
-  {
-    "title": "Big Bass Bonanza",
-    "image": "/images/games/big_bass_bonanza.png",
-    "rating": 4.9
-  },
-  {
-    "title": "Big Bass Return To The Races",
-    "image": "/images/games/big_bass_return_to_the_races.png",
-    "rating": 4.9
-  },
-  {
-    "title": "Blitz Super Wheel",
-    "image": "/images/games/blitz_super_wheel.png",
-    "rating": 3.8
-  },
-  {
-    "title": "Book Of Monsters",
-    "image": "/images/games/book_of_monsters.png",
-    "rating": 3.7
-  },
-  {
-    "title": "Book Of Atlas",
-    "image": "/images/games/book_of_slots/book_of_atlas.png",
-    "rating": 3.1
-  },
-  {
-    "title": "Book Of Champions",
-    "image": "/images/games/book_of_slots/book_of_champions.png",
-    "rating": 3.2
-  },
-  {
-    "title": "Book Of Dead",
-    "image": "/images/games/book_of_slots/book_of_dead.png",
-    "rating": 3.4
-  },
-  {
-    "title": "Book Of Golden Joker",
-    "image": "/images/games/book_of_slots/book_of_golden_joker.png",
-    "rating": 3.6
-  },
-  {
-    "title": "Book Of Light",
-    "image": "/images/games/book_of_slots/book_of_light.png",
-    "rating": 3.4
-  },
-  {
-    "title": "Book Of Mystic",
-    "image": "/images/games/book_of_slots/book_of_mystic.png",
-    "rating": 3.3
-  },
-  {
-    "title": "Book Of Ra",
-    "image": "/images/games/book_of_slots/book_of_ra.png",
-    "rating": 3.2
-  },
-  {
-    "title": "Book Of Rest",
-    "image": "/images/games/book_of_slots/book_of_rest.png",
-    "rating": 3.7
-  },
-  {
-    "title": "Book Of Sirens",
-    "image": "/images/games/book_of_slots/book_of_sirens.png",
-    "rating": 4.1
-  },
-  {
-    "title": "Book Of The Divine",
-    "image": "/images/games/book_of_slots/book_of_the_divine.png",
-    "rating": 3.8
-  },
-  {
-    "title": "Book Of Tut",
-    "image": "/images/games/book_of_slots/book_of_tut.png",
-    "rating": 4.1
-  },
-  {
-    "title": "Book Of Vikings",
-    "image": "/images/games/book_of_slots/book_of_vikings.png",
-    "rating": 3.8
-  },
-  {
-    "title": "John Hunter And The Book Of Tut",
-    "image": "/images/games/book_of_slots/john_hunter_and_the_book_of_tut.png",
-    "rating": 3.5
-  },
-  {
-    "title": "Buffalo King",
-    "image": "/images/games/buffalo_king.png",
-    "rating": 3.7
-  },
-  {
-    "title": "Aviator",
-    "image": "/images/games/crypto_games/aviator.png",
-    "rating": 4.2
-  },
-  {
-    "title": "Big Bass Crash",
-    "image": "/images/games/crypto_games/big_bass_crash.png",
-    "rating": 3.7
-  },
-  {
-    "title": "Crash Duel X",
-    "image": "/images/games/crypto_games/crash_duel_x.png",
-    "rating": 3
-  },
-  {
-    "title": "Cricket Crash",
-    "image": "/images/games/crypto_games/cricket_crash.png",
-    "rating": 3.4
-  },
-  {
-    "title": "Football Manager",
-    "image": "/images/games/crypto_games/football_manager.png",
-    "rating": 4.3
-  },
-  {
-    "title": "Magnify Man",
-    "image": "/images/games/crypto_games/magnify_man.png",
-    "rating": 3.2
-  },
-  {
-    "title": "Need For X",
-    "image": "/images/games/crypto_games/need_for_x.png",
-    "rating": 3
-  },
-  {
-    "title": "Save The Hamster",
-    "image": "/images/games/crypto_games/save_the_hamster.png",
-    "rating": 3.3
-  },
-  {
-    "title": "Spaceman",
-    "image": "/images/games/crypto_games/spaceman.png",
-    "rating": 4.4
-  },
-  {
-    "title": "Frozen Tropics",
-    "image": "/images/games/frozen_tropics.png",
-    "rating": 3.2
-  },
-  {
-    "title": "Gates Of Olympus",
-    "image": "/images/games/gates_of_olympus.png",
-    "rating": 4.9
-  },
-  {
-    "title": "5 Lions Gold",
-    "image": "/images/games/jackpots/5_lions_gold.png",
-    "rating": 3.1
-  },
-  {
-    "title": "Cosmic Cash",
-    "image": "/images/games/jackpots/cosmic_cash.png",
-    "rating": 4.4
-  },
-  {
-    "title": "Diamond Strike",
-    "image": "/images/games/jackpots/diamond_strike.png",
-    "rating": 3.6
-  },
-  {
-    "title": "Jackpot Hunter",
-    "image": "/images/games/jackpots/jackpot_hunter.png",
-    "rating": 3.6
-  },
-  {
-    "title": "Rainforest Magic Bingo",
-    "image": "/images/games/jackpots/rainforest_magic_bingo.png",
-    "rating": 3.9
-  },
-  {
-    "title": "John Hunter And Galileo",
-    "image": "/images/games/john_hunter_and_galileo.png",
-    "rating": 4.6
-  },
-  {
-    "title": "Lucky Mouse",
-    "image": "/images/games/lucky_mouse.png",
-    "rating": 4.4
-  },
-  {
-    "title": "Lucky Tiger",
-    "image": "/images/games/lucky_tiger.png",
-    "rating": 4.5
-  },
-  {
-    "title": "Plinko",
-    "image": "/images/games/plinko.png",
-    "rating": 4.4
-  },
-  {
-    "title": "Sweet Bonanza",
-    "image": "/images/games/sweet_bonanza.png",
-    "rating": 4.1
-  },
-  {
-    "title": "The Dog House",
-    "image": "/images/games/the_dog_house.png",
-    "rating": 3.9
-  },
-  {
-    "title": "Wild Wild Joker",
-    "image": "/images/games/wild_wild_joker.png",
-    "rating": 4.2
-  }
-]
+{
+  "sections": [
+    {
+      "title": "Top Games",
+      "games": [
+        {
+          "code": "spribe/plinko/337850",
+          "title": "Plinko",
+          "image": "https://placehold.co/400x500/png?text=Plinko"
+        },
+        {
+          "code": "spribe/aviator/337812",
+          "title": "Aviator",
+          "image": "https://placehold.co/400x500/png?text=Aviator"
+        },
+        {
+          "code": "spribe/dice/337869",
+          "title": "Dice",
+          "image": "https://placehold.co/400x500/png?text=Dice"
+        },
+        {
+          "code": "spribe/goal/337907",
+          "title": "Goal",
+          "image": "https://placehold.co/400x500/png?text=Goal"
+        }
+      ]
+    },
+    {
+      "title": "New Games",
+      "games": [
+        {
+          "code": "spribe/plinko/337850",
+          "title": "Plinko",
+          "image": "https://placehold.co/400x500/png?text=Plinko"
+        },
+        {
+          "code": "spribe/aviator/337812",
+          "title": "Aviator",
+          "image": "https://placehold.co/400x500/png?text=Aviator"
+        },
+        {
+          "code": "spribe/dice/337869",
+          "title": "Dice",
+          "image": "https://placehold.co/400x500/png?text=Dice"
+        },
+        {
+          "code": "spribe/goal/337907",
+          "title": "Goal",
+          "image": "https://placehold.co/400x500/png?text=Goal"
+        },
+        {
+          "code": "spribe/keno/337945",
+          "title": "Keno",
+          "image": "https://placehold.co/400x500/png?text=Keno"
+        },
+        {
+          "code": "spribe/mines/337926",
+          "title": "Mines",
+          "image": "https://placehold.co/400x500/png?text=Mines"
+        },
+        {
+          "code": "spribe/hilo/337831",
+          "title": "Hilo",
+          "image": "https://placehold.co/400x500/png?text=Hilo"
+        },
+        {
+          "code": "spribe/miniroulette/337888",
+          "title": "Mini Roulette",
+          "image": "https://placehold.co/400x500/png?text=Mini+Roulette"
+        },
+        {
+          "code": "spribe/hotline/337964",
+          "title": "Hotline",
+          "image": "https://placehold.co/400x500/png?text=Hotline"
+        },
+        {
+          "code": "spribe/Balloon/440879",
+          "title": "Balloon",
+          "image": "https://placehold.co/400x500/png?text=Balloon"
+        },
+        {
+          "code": "spribe/Trader/504288",
+          "title": "Trader",
+          "image": "https://placehold.co/400x500/png?text=Trader"
+        }
+      ]
+    }
+  ]
+}
