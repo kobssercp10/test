@@ -1,0 +1,13 @@
+[
+  {"slug": "plinko", "title": "Plinko", "image": "/images/games/plinko.png", "apiPath": "spribe/plinko/337850"},
+  {"slug": "aviator", "title": "Aviator", "image": "/images/games/crypto_games/aviator.png", "apiPath": "spribe/aviator/337812"},
+  {"slug": "dice", "title": "Dice", "image": "/placeholder.jpg", "apiPath": "spribe/dice/337869"},
+  {"slug": "goal", "title": "Goal", "image": "/placeholder.jpg", "apiPath": "spribe/goal/337907"},
+  {"slug": "keno", "title": "Keno", "image": "/placeholder.jpg", "apiPath": "spribe/keno/337945"},
+  {"slug": "mines", "title": "Mines", "image": "/placeholder.jpg", "apiPath": "spribe/mines/337926"},
+  {"slug": "hilo", "title": "HiLo", "image": "/placeholder.jpg", "apiPath": "spribe/hilo/337831"},
+  {"slug": "miniroulette", "title": "Mini Roulette", "image": "/placeholder.jpg", "apiPath": "spribe/miniroulette/337888"},
+  {"slug": "hotline", "title": "Hotline", "image": "/placeholder.jpg", "apiPath": "spribe/hotline/337964"},
+  {"slug": "balloon", "title": "Balloon", "image": "/placeholder.jpg", "apiPath": "spribe/Balloon/440879"},
+  {"slug": "trader", "title": "Trader", "image": "/placeholder.jpg", "apiPath": "spribe/Trader/504288"}
+]
