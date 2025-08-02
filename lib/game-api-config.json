@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "accept": "application/vnd.s.v2+json",
+    "accept-language": "en-US,en;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-ch-ua": "\"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"138\", \"Brave\";v=\"138\"",
+    "sec-ch-ua-arch": "\"x86\"",
+    "sec-ch-ua-full-version-list": "\"Not)A;Brand\";v=\"8.0.0.0\", \"Chromium\";v=\"138.0.0.0\", \"Brave\";v=\"138.0.0.0\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-model": "\"\"",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-ch-ua-platform-version": "\"10.0.0\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1",
+    "tracestate": "dd=s:1;o:rum",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+    "x-datadog-origin": "rum",
+    "x-datadog-sampling-priority": "1",
+    "x-display-mode": "browser"
+  },
+  "cookies": "first_visited=dHJ1ZQ%3D%3D--7145ed891d367894e80e67781f810a92bd18ee8a; referral_params=eJwrSi3OLy1KTo2OtU0uLSpKzUuuVCtCiCWWlmQAAP5qDf4%3D; _user_visited_app=true; locale=ImVuIg%3D%3D--8d5f0ed8ffa9e7254902ed86823020d385b5435b; trackers=Int9Ig%3D%3D--66dfe43229f08bfea6058da6d59f0480fa495550; _casino_session=eyJ0eXAiOiJKV1QiLCJraWQiOjM4LCJhbGciOiJSUzUxMiJ9.eyJzZXNzaW9uIjoiOTYyNjg4ZTYzYzRlYWI3YmVjNDZiZjg3ZTdjMTBjNmUiLCJ1c2VyX2lkIjoyMDk2MTI0LCJpcCI6IjE3Ni42NS4xMzEuMTcyIiwiY2FzaW5vX2NvZGVuYW1lIjoicGxheWFtbyIsImV4cCI6MTc1NTg5MTUzOSwiaWF0IjoxNzU0MDc3MTM5LCJqdGkiOiJkNGExYjIzYi1lOTg1LTRhMGUtOGUxNC00Yjk2NGFlY2NmNGMifQ.TjJKcUodrSNu90xrTuhpU-1s53ELHQa3yNaF2NDl4rcT9I6LSKJVxtF1Q1NcuoRTTk0JR2rbAX113vYof_WezUzbcdAPIZ_2dHBTsxVgqyNqANde4QFo0ekxYBYhPgchbf9EOFgAeL395hen1kp3OGUMXXkFPFVXxMO3eBI13wS0fX20WQp0_eJyJ2csUq11r_v0eM-UAv8NjtjSbfNgtAf5mJ3VIq0l7MU5mSuu5ADNQ8BVZ-4fqRGT-PFni4FGIIeyDy_VUFi70e-xKnJ4GI0Q9EXpbUBiK-35IPCpL_39tAJyvENxPfrGsARn_caBubaKaR1psh11fTfGLTevEw; is_beta_player=false; original_user_id=MjA5NjEyNA%3D%3D--ed3d576d19ea1a03258a6daf2dfe17e90c4ed740;"
+}

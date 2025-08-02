@@ -1,0 +1,13 @@
+[
+  { "slug": "plinko", "title": "Plinko", "code": "spribe/plinko/337850", "image": "/images/games/crypto_games/plinko.png" },
+  { "slug": "aviator", "title": "Aviator", "code": "spribe/aviator/337812", "image": "/images/games/crypto_games/aviator.png" },
+  { "slug": "dice", "title": "Dice", "code": "spribe/dice/337869", "image": "/images/games/plinko.png" },
+  { "slug": "goal", "title": "Goal", "code": "spribe/goal/337907", "image": "/images/games/plinko.png" },
+  { "slug": "keno", "title": "Keno", "code": "spribe/keno/337945", "image": "/images/games/plinko.png" },
+  { "slug": "mines", "title": "Mines", "code": "spribe/mines/337926", "image": "/images/games/plinko.png" },
+  { "slug": "hilo", "title": "Hilo", "code": "spribe/hilo/337831", "image": "/images/games/plinko.png" },
+  { "slug": "miniroulette", "title": "Mini Roulette", "code": "spribe/miniroulette/337888", "image": "/images/games/plinko.png" },
+  { "slug": "hotline", "title": "Hotline", "code": "spribe/hotline/337964", "image": "/images/games/plinko.png" },
+  { "slug": "balloon", "title": "Balloon", "code": "spribe/Balloon/440879", "image": "/images/games/plinko.png" },
+  { "slug": "trader", "title": "Trader", "code": "spribe/Trader/504288", "image": "/images/games/plinko.png" }
+]
