@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
+import Link from "next/link";
 import { Input } from "@/components/ui/input";
 import {
   Select,
@@ -15,6 +16,7 @@ interface Game {
   title: string;
   image: string;
   rating: number;
+  slug: string;
 }
 
 export default function SearchPage() {
@@ -60,19 +62,13 @@ export default function SearchPage() {
       </div>
       <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-2">
         {sorted.map((game) => (
-          <Card
-            key={game.title}
-            className="overflow-hidden bg-purple-800 transition-shadow border-none hover:ring-2 hover:ring-pink-500 hover:shadow-[0_0_10px_#ff3cac] rounded-xl"
-          >
-            <div className="relative aspect-[4/5]">
-              <Image
-                src={game.image}
-                alt={game.title}
-                fill
-                className="object-cover"
-              />
-            </div>
-          </Card>
+          <Link key={game.slug} href={`/games/${game.slug}`}>
+            <Card className="overflow-hidden bg-purple-800 transition-shadow border-none hover:ring-2 hover:ring-pink-500 hover:shadow-[0_0_10px_#ff3cac] rounded-xl">
+              <div className="relative aspect-[4/5]">
+                <Image src={game.image} alt={game.title} fill className="object-cover" />
+              </div>
+            </Card>
+          </Link>
         ))}
       </div>
     </main>
