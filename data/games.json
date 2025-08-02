@@ -3,66 +3,77 @@
     "slug": "plinko",
     "title": "Plinko",
     "image": "/images/games/spribe/plinko.png",
-    "path": "spribe/plinko/337850"
+    "path": "spribe/plinko/337850",
+    "rating": 5
   },
   {
     "slug": "aviator",
     "title": "Aviator",
     "image": "/images/games/spribe/aviator.png",
-    "path": "spribe/aviator/337812"
+    "path": "spribe/aviator/337812",
+    "rating": 5
   },
   {
     "slug": "dice",
     "title": "Dice",
     "image": "/images/games/spribe/dice.png",
-    "path": "spribe/dice/337869"
+    "path": "spribe/dice/337869",
+    "rating": 5
   },
   {
     "slug": "goal",
     "title": "Goal",
     "image": "/images/games/spribe/goal.png",
-    "path": "spribe/goal/337907"
+    "path": "spribe/goal/337907",
+    "rating": 4.2
   },
   {
     "slug": "keno",
     "title": "Keno",
     "image": "/images/games/spribe/keno.png",
-    "path": "spribe/keno/337945"
+    "path": "spribe/keno/337945",
+    "rating": 3.8
   },
   {
     "slug": "mines",
     "title": "Mines",
     "image": "/images/games/spribe/mines.png",
-    "path": "spribe/mines/337926"
+    "path": "spribe/mines/337926",
+    "rating": 4.1
   },
   {
     "slug": "hilo",
     "title": "Hilo",
     "image": "/images/games/spribe/hilo.png",
-    "path": "spribe/hilo/337831"
+    "path": "spribe/hilo/337831",
+    "rating": 3.7
   },
   {
     "slug": "miniroulette",
     "title": "Roulette",
     "image": "/images/games/spribe/roulette.png",
-    "path": "spribe/miniroulette/337888"
+    "path": "spribe/miniroulette/337888",
+    "rating": 4
   },
   {
     "slug": "hotline",
     "title": "Hotline",
     "image": "/images/games/spribe/hotline.png",
-    "path": "spribe/hotline/337964"
+    "path": "spribe/hotline/337964",
+    "rating": 3.5
   },
   {
     "slug": "balloon",
     "title": "Balloon",
     "image": "/images/games/spribe/balloon.png",
-    "path": "spribe/Balloon/440879"
+    "path": "spribe/Balloon/440879",
+    "rating": 4.3
   },
   {
     "slug": "trader",
     "title": "Trader",
     "image": "/images/games/spribe/trader.png",
-    "path": "spribe/Trader/504288"
+    "path": "spribe/Trader/504288",
+    "rating": 3.9
   }
 ]
