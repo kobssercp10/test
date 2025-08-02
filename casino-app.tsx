@@ -1,6 +1,7 @@
 "use client";
 
 import { useRef } from "react";
+import useBotEnv from "@/hooks/useBotEnv";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { ChevronLeft, ChevronRight } from "lucide-react";
@@ -13,6 +14,7 @@ export default function Component() {
   const cryptoRef = useRef<HTMLDivElement>(null);
   const jackpotRef = useRef<HTMLDivElement>(null);
   const bookRef = useRef<HTMLDivElement>(null);
+  const { BOT_USERNAME } = useBotEnv();
 
   const scrollLeft = (ref: React.RefObject<HTMLDivElement>) => {
     ref.current?.scrollBy({ left: -150, behavior: "smooth" });
@@ -368,8 +370,11 @@ export default function Component() {
 
       {/* Contact Information */}
       <div className="mt-10 mb-20 px-4 text-center">
-        <a href="https://t.me/TelBet_Demo_Bot" className="text-pink-400 text-sm hover:underline">
-          @TelBet_Demo_Bot
+        <a
+          href={`https://t.me/${BOT_USERNAME}`}
+          className="text-pink-400 text-sm hover:underline"
+        >
+          {BOT_USERNAME ? `@${BOT_USERNAME}` : ""}
         </a>
       </div>
 

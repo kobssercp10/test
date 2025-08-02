@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import useTelegramUser from "@/hooks/useTelegramUser";
 import {
   Select,
   SelectTrigger,
@@ -11,15 +12,17 @@ import {
   SelectItem,
 } from "@/components/ui/select";
 import { ArrowDown, ArrowUp, Copy } from "lucide-react";
+import useBotEnv from "@/hooks/useBotEnv";
 
 export default function WalletPage() {
+  const { TON_ADDRESS, TON_TAG } = useBotEnv();
   const [tab, setTab] = useState<"deposit" | "withdraw">("deposit");
   const [amount, setAmount] = useState("");
   const [showAlert, setShowAlert] = useState(false);
 
-  const address =
-    "EQC1234567890abcdef1234567890abcdef1234567890abcdef1234567890";
-  const tag = "654321";
+  const address = TON_ADDRESS;
+  const tag = TON_TAG;
+  const user = useTelegramUser();
 
   useEffect(() => {
     if (!showAlert) return;
@@ -87,7 +90,7 @@ export default function WalletPage() {
             <div className="relative">
               <Input
                 readOnly
-                value={tag}
+                value={user?.id || ""}
                 className="w-full border-none bg-black backdrop-blur-md bg-opacity-30 rounded-sm text-white pr-10"
               />
               <Button

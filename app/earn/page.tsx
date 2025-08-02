@@ -1,12 +1,15 @@
 "use client";
 
 import Image from "next/image";
-import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Copy, Users, DollarSign, Percent } from "lucide-react";
+import useBotEnv from "@/hooks/useBotEnv";
+import useTelegramUser from "@/hooks/useTelegramUser";
 
 export default function EarnPage() {
-  const affiliate = "https://t.me/example_bot";
+  const { BOT_USERNAME } = useBotEnv();
+  const user = useTelegramUser();
+  const affiliate = `https://t.me/${BOT_USERNAME}/?start=r${user?.id}`;
 
   const copy = async (text: string) => {
     try {
