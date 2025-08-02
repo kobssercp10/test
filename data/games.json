@@ -1,0 +1,13 @@
+[
+  {"slug":"plinko","title":"Plinko","image":"/images/games/crypto_games/plinko.png","path":"spribe/plinko/337850"},
+  {"slug":"aviator","title":"Aviator","image":"/images/games/crypto_games/aviator.png","path":"spribe/aviator/337812"},
+  {"slug":"dice","title":"Dice","image":"/images/games/placeholder.svg","path":"spribe/dice/337869"},
+  {"slug":"goal","title":"Goal","image":"/images/games/placeholder.svg","path":"spribe/goal/337907"},
+  {"slug":"keno","title":"Keno","image":"/images/games/placeholder.svg","path":"spribe/keno/337945"},
+  {"slug":"mines","title":"Mines","image":"/images/games/placeholder.svg","path":"spribe/mines/337926"},
+  {"slug":"hilo","title":"Hilo","image":"/images/games/placeholder.svg","path":"spribe/hilo/337831"},
+  {"slug":"miniroulette","title":"Mini Roulette","image":"/images/games/placeholder.svg","path":"spribe/miniroulette/337888"},
+  {"slug":"hotline","title":"Hotline","image":"/images/games/placeholder.svg","path":"spribe/hotline/337964"},
+  {"slug":"balloon","title":"Balloon","image":"/images/games/placeholder.svg","path":"spribe/Balloon/440879"},
+  {"slug":"trader","title":"Trader","image":"/images/games/placeholder.svg","path":"spribe/Trader/504288"}
+]
