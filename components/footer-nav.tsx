@@ -1,15 +1,15 @@
 "use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Home, Search, Wallet, DollarSign, User } from "lucide-react";
+import { Home, Search, Trophy, Wallet, DollarSign } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const navItems = [
   { href: "/", label: "Home", icon: Home },
   { href: "/search", label: "Search", icon: Search },
+  { href: "/sport", label: "Sport", icon: Trophy },
   { href: "/wallet", label: "Wallet", icon: Wallet },
   { href: "/earn", label: "Earn", icon: DollarSign },
-  { href: "/profile", label: "Profile", icon: User },
 ];
 
 export default function FooterNav() {
