@@ -1,0 +1,68 @@
+[
+  {
+    "slug": "plinko",
+    "title": "Plinko",
+    "image": "/images/games/spribe/plinko.png",
+    "path": "spribe/plinko/337850"
+  },
+  {
+    "slug": "aviator",
+    "title": "Aviator",
+    "image": "/images/games/spribe/aviator.png",
+    "path": "spribe/aviator/337812"
+  },
+  {
+    "slug": "dice",
+    "title": "Dice",
+    "image": "/images/games/spribe/dice.png",
+    "path": "spribe/dice/337869"
+  },
+  {
+    "slug": "goal",
+    "title": "Goal",
+    "image": "/images/games/spribe/goal.png",
+    "path": "spribe/goal/337907"
+  },
+  {
+    "slug": "keno",
+    "title": "Keno",
+    "image": "/images/games/spribe/keno.png",
+    "path": "spribe/keno/337945"
+  },
+  {
+    "slug": "mines",
+    "title": "Mines",
+    "image": "/images/games/spribe/mines.png",
+    "path": "spribe/mines/337926"
+  },
+  {
+    "slug": "hilo",
+    "title": "Hilo",
+    "image": "/images/games/spribe/hilo.png",
+    "path": "spribe/hilo/337831"
+  },
+  {
+    "slug": "miniroulette",
+    "title": "Roulette",
+    "image": "/images/games/spribe/roulette.png",
+    "path": "spribe/miniroulette/337888"
+  },
+  {
+    "slug": "hotline",
+    "title": "Hotline",
+    "image": "/images/games/spribe/hotline.png",
+    "path": "spribe/hotline/337964"
+  },
+  {
+    "slug": "balloon",
+    "title": "Balloon",
+    "image": "/images/games/spribe/balloon.png",
+    "path": "spribe/Balloon/440879"
+  },
+  {
+    "slug": "trader",
+    "title": "Trader",
+    "image": "/images/games/spribe/trader.png",
+    "path": "spribe/Trader/504288"
+  }
+]
