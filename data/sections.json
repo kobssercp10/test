@@ -1,0 +1,4 @@
+[
+  {"id":"top","title":"Top Games","games":["plinko","aviator","dice","goal"]},
+  {"id":"new","title":"New Games","games":["plinko","aviator","dice","goal","keno","mines","hilo","miniroulette","hotline","balloon","trader"]}
+]
