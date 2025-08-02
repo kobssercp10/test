@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Input } from "@/components/ui/input";
 import {
   Select,
@@ -10,6 +10,7 @@ import {
 } from "@/components/ui/select";
 import { Card } from "@/components/ui/card";
 import Image from "next/image";
+import gamesData from "@/data/games.json";
 
 interface Game {
   title: string;
@@ -18,15 +19,9 @@ interface Game {
 }
 
 export default function SearchPage() {
-  const [games, setGames] = useState<Game[]>([]);
   const [search, setSearch] = useState("");
   const [sort, setSort] = useState("Recommended");
-
-  useEffect(() => {
-    fetch("/games.json")
-      .then((res) => res.json())
-      .then((data: Game[]) => setGames(data));
-  }, []);
+  const games = gamesData as Game[];
 
   const filtered = games.filter((g) =>
     g.title.toLowerCase().includes(search.toLowerCase()),
