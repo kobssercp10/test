@@ -2,6 +2,7 @@
 import { useState } from "react";
 import useTelegramUser from "@/hooks/useTelegramUser";
 import Image from "next/image";
+import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export default function Header() {
@@ -17,14 +18,21 @@ export default function Header() {
         <Image src="/ton.svg" alt="TON" width={18} height={18}/>
         <span className="text-sm font-medium">{balance}</span>
       </div>
-      <Button variant="ghost" size="icon" className="w-10 h-10 rounded-full overflow-hidden p-0 ml-3">
-        <Image
-          src={user?.photo_url ?? "https://placehold.co/40x40/EEEEEE/EEEEEE"}
-          alt={user ? `${user.first_name} ${user.last_name ?? ""}` : "Profile"}
-          width={40}
-          height={40}
-          className="object-cover"
-        />
+      <Button
+        variant="ghost"
+        size="icon"
+        className="w-10 h-10 rounded-full overflow-hidden p-0 ml-3"
+        asChild
+      >
+        <Link href="/profile">
+          <Image
+            src={user?.photo_url ?? "https://placehold.co/40x40/EEEEEE/EEEEEE"}
+            alt={user ? `${user.first_name} ${user.last_name ?? ""}` : "Profile"}
+            width={40}
+            height={40}
+            className="object-cover"
+          />
+        </Link>
       </Button>
     </div>
   );
